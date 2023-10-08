@@ -1,5 +1,10 @@
 
+use crate::garden::plant;
+
 pub mod person {
+    use crate::garden::plant;
+    use crate::garden::plant::new_plant;
+
     pub struct Person {
         pub name: String,
         pub age: isize,
@@ -18,5 +23,9 @@ pub mod person {
 
     pub fn deal() {
         println!("hello person");
+    }
+
+    fn work() {
+        let s = plant::new_plant("s".to_string());
     }
 }

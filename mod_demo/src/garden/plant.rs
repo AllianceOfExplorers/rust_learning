@@ -8,7 +8,7 @@ impl Plant {
     }
 
     pub fn kind(&self) -> &str {
-       return &self.kind[..]
+       return &self.kind
     }
 }
 

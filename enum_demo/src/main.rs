@@ -1,9 +1,9 @@
 #[derive(Debug)]
 enum Coin {
-    Penny,
-    Nickel,
-    Dime,
-    Quarter,
+    Penny(isize),
+    Nickel(isize),
+    Dime(isize),
+    Quarter(isize),
 }
 
 fn value_of_coin(c: Coin) -> isize {

@@ -1,4 +1,4 @@
-pub mod plant;
+pub(super) mod plant;
 
 pub struct Garden {
     area: isize,
